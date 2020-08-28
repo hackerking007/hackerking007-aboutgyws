@@ -171,7 +171,16 @@
         margin-right: 20px;
         padding-left: 20px;
     }
-
+    .section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 28rem;
+}
     .header .header-bottom .menu {
         margin: 0px 0;
     }
@@ -371,6 +380,16 @@
 
         margin-top: -140px;
     }
+    .section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 28rem;
+}
 
     .donors .donors_image {
         background: #fed136 none repeat scroll 0 0;
@@ -410,7 +429,16 @@
 
         margin-top: -140px;
     }
-
+    .section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 28rem;
+}
     .donors .donors_image .item img {
 
         margin: 0 auto 20px;
@@ -476,9 +504,7 @@
     .know-button {
         padding: 15px 45px;
     }
-}
-@media only screen and (max-width: 320px){
-    section-header h3 {
+    .section-header h3 {
     font-size: 32px;
     color: #111;
     text-transform: uppercase;
@@ -486,6 +512,7 @@
     font-weight: 700;
     position: relative;
     padding-bottom: 15px;
-    margin-top: 22rem;
-    }
+    margin-top: 28rem;
 }
+}
+
