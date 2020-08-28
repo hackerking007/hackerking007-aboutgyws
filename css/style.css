@@ -21,7 +21,7 @@
 }
 
 .carosal-area {
-    background-image: url("../about images/img/carosal-bg.jpg");
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("../about images/img/bg-home.jpg");
     background-size: cover;
 }
 
@@ -252,7 +252,7 @@
 }
 
 .donate_section {
-    background-image: url("../about images/img/donate-bg.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../about images/img/history-img.jpg");
     background-size: cover;
     margin-bottom: 5rem;
 }
