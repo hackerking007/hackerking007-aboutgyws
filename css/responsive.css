@@ -477,3 +477,15 @@
         padding: 15px 45px;
     }
 }
+@media only screen and (max-width: 767px){
+    section-header h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 22rem;
+    }
+}
