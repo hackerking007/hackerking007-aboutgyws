@@ -199,6 +199,7 @@
 
     .carosal-area .text>p {
         text-align: justify;
+        margin-right: 5px;
     }
 
     br {
