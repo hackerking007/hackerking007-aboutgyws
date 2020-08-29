@@ -479,6 +479,10 @@
 }
 
 @media only screen and (max-width: 325px) {
+    #about .container {
+  
+    margin-top: -450px;
+}
     .our_activity .single-Promo h2.vision a {
         margin-left: 60px;
     }
