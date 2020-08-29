@@ -167,6 +167,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .hide{
+        display: none!important;
+    }
     .header .header-bottom .menu ul li a {
         margin-right: 20px;
         padding-left: 20px;
