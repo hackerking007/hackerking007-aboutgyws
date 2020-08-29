@@ -141,38 +141,40 @@
                             of us who have been fortunate enough to be embraced by financial stability and the boon of
                             education, are perhaps not afflicted by the perils that the majority of people in this
                             country have to face. But that does not necessarily imply that we remain wrapped in our
-                            blankets of comfort and forget about those who just have mere rags.</p>
-
-                        <p>In 2002, when such a regular citizen named Mrinal Kanti Bhanja, thought about this
-                            fundamental truth about our society and saw the suffering around him in the midst of his
-                            political work; it severely jolted him. And that is when he decided to work with all the
-                            resources and force that he can muster towards uplifting the society. The philosophy he
-                            adopted was simple and all the fuel it needed was sowing the seed of concern for society
-                            into the youth of the nation. The best avenue to mobilize and enhance the inherent goodness
-                            in the youth of India, lay right before him – IIT Kharagpur. Thus, the Gopali Youth Welfare
-                            Society (GYWS) was born. With his guidance and encouragement, the students and teachers of
-                            IIT have since then set up a network that promotes the growth, education, and prosperity of
-                            the underprivileged people who reside outside the borders of the educational institution.
-                            Setting up schools, free tuition, workshops and awareness camps and exploring all the
-                            possible territories of aiding the underprivileged has now become the vitality of this
-                            society.</p>
-
-                        <p class="hide">Founded in 2002, the society in its initial years was involved in social activities like
-                            organising blood donation camps, tree plantation drives and taking out awareness drives in
-                            association with national and international organisations like Nehru Yuva Kendra and Red
-                            Cross Society.</p>
-
-                        <p class="hide">Of all the herculean tasks undertaken by this student run NGO, starting of an English medium
-                            Primary school in a rural area to make education accessible to all was most daunting. In
-                            2008 GYWS’s very own school JagritiVidyaMandir (JVM), started at a govt. high school
-                            premises and Now we have our own school in Gopali area, which is a fully functional school
-                            in which we have more than 230 students studying with teachers hired for overall development
-                            of deprived ones.</p>
-
-                        <p class="hide"> Unlike many other NGOs, GYWS is not dedicated to any one particular cause and our welfare
-                            schemes covers wide range of issues from free education to social awareness campaigns,
-                            vocational training to child labour issues, health camps to women employment. GYWS explores
-                            all the possible territories of aiding the underprivileged. </p>
+                            blankets of comfort and forget about those who just have mere rags<span id="dots">...</span></p>
+                          <span id="more">
+                            <p>In 2002, when such a regular citizen named Mrinal Kanti Bhanja, thought about this
+                              fundamental truth about our society and saw the suffering around him in the midst of his
+                              political work; it severely jolted him. And that is when he decided to work with all the
+                              resources and force that he can muster towards uplifting the society. The philosophy he
+                              adopted was simple and all the fuel it needed was sowing the seed of concern for society
+                              into the youth of the nation. The best avenue to mobilize and enhance the inherent goodness
+                              in the youth of India, lay right before him – IIT Kharagpur. Thus, the Gopali Youth Welfare
+                              Society (GYWS) was born. With his guidance and encouragement, the students and teachers of
+                              IIT have since then set up a network that promotes the growth, education, and prosperity of
+                              the underprivileged people who reside outside the borders of the educational institution.
+                              Setting up schools, free tuition, workshops and awareness camps and exploring all the
+                              possible territories of aiding the underprivileged has now become the vitality of this
+                              society.</p>
+  
+                          <p class="hide">Founded in 2002, the society in its initial years was involved in social activities like
+                              organising blood donation camps, tree plantation drives and taking out awareness drives in
+                              association with national and international organisations like Nehru Yuva Kendra and Red
+                              Cross Society.</p>
+  
+                          <p class="hide">Of all the herculean tasks undertaken by this student run NGO, starting of an English medium
+                              Primary school in a rural area to make education accessible to all was most daunting. In
+                              2008 GYWS’s very own school JagritiVidyaMandir (JVM), started at a govt. high school
+                              premises and Now we have our own school in Gopali area, which is a fully functional school
+                         in which we have more than 230 students studying with teachers hired for overall development
+                              of deprived ones.</p>
+  
+                          <p class="hide"> Unlike many other NGOs, GYWS is not dedicated to any one particular cause and our welfare
+                              schemes covers wide range of issues from free education to social awareness campaigns,
+                              vocational training to child labour issues, health camps to women employment. GYWS explores
+                              all the possible territories of aiding the underprivileged. </p>
+                          </span>
+                          <button onclick="myFunction()" id="myBtn">Read more</button>
                         <!--<h2><a href="#">DONATE NOW</a></h2>-->
                     </div>
                 </div>
@@ -270,7 +272,7 @@
                             <p>There is a natural law, a Divine law that obliges you and me to believe the sufferings of
                                 the distressed and the destitute. A service for the poor is a supreme virtue and the
                                 great channel through which the mercy of God is passed on to mankind.</p>
-
+                                <br>
                             <p>As stewards of GOPALI YOUTH WELFARE SOCIETY, the board and staff of Society are committed
                                 to adhering as closely as possible to his intentions, as reflected in our guiding
                                 principle. GYWS is a rural-based registered organization by and for the people. Despite
@@ -433,6 +435,21 @@
             var s = document.getElementsByTagName('script')[0];
             s.parentNode.insertBefore(ga, s);
         })();
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
     </script>
 </body>
 
