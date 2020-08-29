@@ -358,7 +358,7 @@
     .donors .donors_image h2 {
 
         font-size: 20px;
-
+        margin-bottom: 2rem;
         margin: 0px 0 10px;
 
     }
@@ -366,6 +366,7 @@
     .donors .donors_input p {
 
         font-size: 13.5px;
+        margin-top: -30px;
 
     }
 
@@ -447,7 +448,7 @@
         margin: 0 auto 20px;
         width: 200px;
 
-        margin-top: 250px;
+        margin-top: 180px;
     }
 
     .donors .donors_image .item h3 {
@@ -515,7 +516,7 @@
     font-weight: 700;
     position: relative;
     padding-bottom: 15px;
-    margin-top: 28rem;
+    margin-top: 32rem;
 }
 }
 
